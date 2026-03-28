@@ -1,55 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>Yiding Tian</title>
+
     <style>
         body {
-            font-family: Arial;
-            max-width: 800px;
+            font-family: Arial, sans-serif;
+            max-width: 900px;
             margin: auto;
             padding: 40px;
             background-color: #f5f5f5;
+            line-height: 1.6;
         }
-        h1 { color: #333; }
-        .section { margin-top: 30px; }
+
+        h1 {
+            color: #1f3b5c;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #1f3b5c;
+        }
+
+        .subtitle {
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        a {
+            color: #2a5db0;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #e0e7ff;
+            color: #1f3b5c;
+            padding: 5px 10px;
+            margin: 5px 5px 0 0;
+            border-radius: 15px;
+            font-size: 14px;
+        }
     </style>
 </head>
 
 <body>
 
 <h1>Yiding Tian</h1>
-<p>Computer Science @ UIUC</p>
-
-<div class="section">
-<h2>About Me</h2>
-<p>
-I am a Computer Science student at the University of Illinois Urbana-Champaign. 
-I am interested in software engineering, data structures, and building real-world applications.
+<p class="subtitle">
+    Math + Computer Science @ UIUC | Aspiring Software Engineer
 </p>
+
+<p>
+    Email: <a href="mailto:edint2@illinois.edu">edint2@illinois.edu</a><br>
+    GitHub: <a href="https://github.com/e1dint">github.com/e1dint</a><br>
+    LinkedIn: <a href="#">(add your link here)</a>
+</p>
+
+<div class="card">
+    <h2>About Me</h2>
+    <p>
+        I am a Mathematics and Computer Science student at the University of Illinois Urbana-Champaign. 
+        I am interested in software engineering, data structures, and building reliable real-world applications.
+    </p>
 </div>
 
-<div class="section">
-<h2>Skills</h2>
-<ul>
-<li>Languages: C++, Python, Java</li>
-<li>Tools: Git, VSCode</li>
-<li>Concepts: Data Structures, Algorithms, OOP</li>
-</ul>
+<div class="card">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Python</span>
+        <span>C++</span>
+        <span>Java</span>
+        <span>Git</span>
+        <span>VSCode</span>
+        <span>Data Structures</span>
+        <span>Algorithms</span>
+        <span>OOP</span>
+    </div>
 </div>
 
-<div class="section">
-<h2>Projects</h2>
-<ul>
-<li>Simple Database System (C++)</li>
-<li>Binary Tree & AVL Tree Implementation</li>
-<li>Personal Website (this site)</li>
-</ul>
+<div class="card">
+    <h2>Projects</h2>
+    <ul>
+        <li>
+            <strong>C++ Database System:</strong>
+            Implemented a simple database system with dynamic memory management, deep copy semantics, 
+            and row/column operations.
+        </li>
+
+        <li>
+            <strong>Tree Data Structures:</strong>
+            Built and debugged binary trees and AVL-style structures using recursion and efficient algorithms.
+        </li>
+
+        <li>
+            <strong>Personal Portfolio Website:</strong>
+            Designed and deployed this website using HTML, CSS, and GitHub Pages.
+        </li>
+    </ul>
 </div>
 
-<div class="section">
-<h2>Contact</h2>
-<p>Email: edint2@illinois.edu</p>
-<p>GitHub: <a href="https://github.com/e1dint">github.com/e1dint</a></p>
+<div class="card">
+    <h2>Resume</h2>
+    <p>
+        Available upon request. (You can contact me via email.)
+    </p>
+</div>
+
+<div class="card">
+    <h2>Contact</h2>
+    <p>
+        Email: edint2@illinois.edu <br>
+        GitHub: <a href="https://github.com/e1dint">github.com/e1dint</a>
+    </p>
 </div>
 
 </body>
